@@ -1,0 +1,11 @@
+[package]
+name = "geezcore"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pyo3 = { version = "0.25", features = ["extension-module"] }
+
+[lib]
+name = "geezcore"
+crate-type = ["cdylib"]
